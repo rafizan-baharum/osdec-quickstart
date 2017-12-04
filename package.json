@@ -13,7 +13,6 @@
     "e2e": "ng e2e",
     "lint": "ng lint",
     "reinstall": "rm -rf node_modules tmp deploy dist && npm i",
-    "postinstall": "webdriver-manager update && ./scripts/protractor.sh",
     "test": "ng test --code-coverage --single-run",
     "test:watch": "ng test --code-coverage"
   },
